@@ -1,0 +1,12 @@
+#Floating{
+    height:50vh !important;
+    width:40vw;
+    margin-top:19vh !important;
+    margin-left:52.5vw !important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+    transition:box-shadow 0.3s ease; 
+    position: absolute;
+    background-image: none;
+    background-color: transparent; 
+}
+

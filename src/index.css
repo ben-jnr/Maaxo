@@ -1,0 +1,15 @@
+html{
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x:hidden;
+}
+body {
+  margin: 0 !important;
+  padding:0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Components/Images/back.jpeg');
+  background-repeat:repeat;
+  background-position: center;
+  background-size: 30em;
+}

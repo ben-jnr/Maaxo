@@ -1,0 +1,18 @@
+#Slider{
+    width: 40vw;
+    height: 50vh;
+    margin-top:0 !important;
+    margin-left:0 !important;
+}
+
+.Sliderimg{
+    height: 50vh;
+    text-align: center;
+    margin-left: 0vw !important;
+}
+
+#Slider div{
+    display: inline-block;
+    text-align: center;
+    margin-left: 0vw;
+}

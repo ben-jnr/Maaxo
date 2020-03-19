@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+#LinkText{
+    height:12vh !important;
+    width:40vw;
+    margin-top:67vh !important;
+    margin-left:52.5vw !important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+    position: absolute;
+    background-image: none;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1em;
+    color:rgba(0.1,0,0,0.75);
+    text-shadow: 1px 1px rgb(100,250,230);
+}
+#BrochureText{
+    display: inline-block;
+    width:20vw;
+    height: 20vh;
+    line-height: 1vh;
+}
+#ImagesText{
+    width:20vw;
+    display: inline-block;
+    height: 12vh;
+    line-height: 1vh;
+}
+#BrochureText p{
+    vertical-align: middle;
+}
+#ImagesText p{
+    vertical-align: middle;
+}    

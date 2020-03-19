@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+
+#Heading{
+    width:45vw;
+    height: 100vh;
+    margin-left: 0vw;
+    background-image: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+    transition:box-shadow 0.3s ease; 
+    display:inline-block;
+    position: absolute;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.75) 100%), url('../Images/back.jpeg') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.75) 100%), url('../Images/back.jpeg') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.75) 100%), url('../Images/back.jpeg') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.75) 100%), url('../Images/back.jpeg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 59%, rgba(0, 0, 0, 0.75) 100%), url('../Images/back.jpeg') no-repeat;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.4);
+    background-repeat:repeat;
+    background-position: center;
+    background-size: 30em;
+}
+#HeadingText{
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 5em;
+    color:rgb(100,250,230);
+    text-shadow: 1px 1px #f9f9f9;
+}

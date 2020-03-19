@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+#Brochure{
+    height:20vh !important;
+    width:40vw;
+    margin-top:75vh !important;
+    margin-left:52.5vw !important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+    position: absolute;
+    background-image: none;
+    background-color: transparent;
+}
+#BrochureLink{
+    height: 20vh;
+    line-height: 19vh;
+    width: 20vw;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+#ImagesLink{
+    vertical-align: middle;
+    height: 20vh;
+    width: 20vw;
+    display: inline-block !important;
+    text-align: center;
+    line-height: 19vh;
+}
+
+button{
+    background-color: rgba(0,0,0,0.75);
+    color:rgb(100,250,230);
+    height: 10vh;
+    width:15vw;
+    border:0px solid transparent;
+    font-family: 'Karla', sans-serif;
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
+    font-size: 1.1em;
+    border-radius:10px;
+}
+button:hover{
+    color:#f9f9f9;
+}
