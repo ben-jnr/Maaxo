@@ -23,12 +23,12 @@ class Heading extends Component {
                         <h1 id="HeadingText2">INDUSTRIES</h1></div>
                 <div id="ChangingText"><em>{this.changingText[this.state.index]}</em></div>
                 <div id="MainText">
-                    Maaxo Industries has been a household name since 1995.
-                    For years, we here at maaxo have been constantly showing our quality through our 
-                    products. Products ranging from ready made septic tanks, paver tiles to even 
-                    concrete windows are manufactured. Use of modern technologies have been 
-                    employed making sure our products last over generations. Hope you have a good
-                    time shopping with us . . . 
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </div>
             </div>
         );

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
 #Navbar{
-    height:60px;
-    line-height: 55px;
+    height:9vh;
+    line-height: 8vh;
     width: 100vw;
     padding-left: 0;
     background-color: rgba(0,0,0,0.75);
@@ -10,15 +10,29 @@
 }
 #Logo{
     width: 15vw;
+    display: inline-block;
+}
+
+#LogoImage{
+    padding-left:2.5vw;
+    padding-top: 1.5vh;
+    width: 4vw;
+}
+#NavLinks{
+    display: inline-block;
+    width: 100vw;
+    position: absolute;
 }
 .Navitem{
-    color:#f9f9f9;
-    font-size: 1.1em;
-    vertical-align: bottom;
-    width:14vw;
+    width:11vw;
     display: inline-block;
+    color:#f9f9f9;
     text-align: center;
     font-family: 'Karla', sans-serif;
-    text-shadow: 1px 1px rgba(255,255,255,0.5);
+    font-size:1.1em;
+}
+.Navitem:nth-of-type(1)
+{
+    margin-left: 28vw;
 }
 

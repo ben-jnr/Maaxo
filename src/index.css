@@ -6,10 +6,12 @@ html{
 body {
   margin: 0 !important;
   padding:0 !important;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./Components/Images/back.jpeg');
   background-repeat:repeat;
-  background-position: center;
-  background-size: 30em;
+  background-position:center;
+  background-size: 50em;
+  background-attachment: fixed;
 }

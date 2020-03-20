@@ -4,11 +4,10 @@
 
 #Heading{
     width:45vw;
-    height: 100vh;
+    height: 95vh;
     margin-left: 0vw;
     background-image: none;
     background-color: transparent;
-    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
     transition:box-shadow 0.3s ease; 
     display:inline-block;
     position: absolute;
@@ -25,35 +24,43 @@
 #HeadingText1{
     font-family: 'Yeseva One', cursive;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color:rgb(100,250,230);
     text-shadow: 1px 1px #f9f9f9;
+    letter-spacing: 2px;
+    width:35vw;
+    margin-left: 5vw;
+    margin-top:7vh;
 }
 #HeadingText2{
     font-family: 'Yeseva One', cursive;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color:rgb(100,250,230);
     text-shadow: 1px 1px #f9f9f9;
     margin-top: -5vh !important;
+    letter-spacing: 2px;
+    width:35vw;
+    margin-left: 5vw;
 }
 
 #ChangingText{
-    width:45vw !important;
+    width:35vw !important;
+    margin-left: 5vw;
     text-align: center;
     color:#f9f9f9;
     font-size: 1.2em;
     font-family: 'Karla', sans-serif;
-    margin-top:8.5vh;
+    margin-top:9.5vh;
 }
 
 #MainText{
-    width:36vw !important;
-    margin-left: 4.5vw;
+    width:35vw !important;
+    margin-left: 5.5vw;
     text-align:left;
     color:#f9f9f9;
     font-size: 1.1em;
     font-family: 'Karla', sans-serif;   
     line-height: 26px;
-    margin-top: 5vh;
+    margin-top: 6vh;
 }

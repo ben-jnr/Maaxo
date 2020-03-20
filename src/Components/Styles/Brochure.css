@@ -30,11 +30,10 @@
 button{
     background-color: rgba(0,0,0,0.75);
     color:#f9f9f9;
-    height: 10vh;
-    width:13vw;
+    height: 9vh;
+    width:10vw;
     border:1px solid rgba(0,0,0,0.75);
     font-family: 'Karla', sans-serif;
-    text-shadow: 1px 1px rgba(255,255,255,0.5);
     font-size: 1em;
     border-radius:10px;
 }   
