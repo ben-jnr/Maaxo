@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
 
 #Heading{
     width:45vw;
@@ -20,10 +22,38 @@
     background-position: center;
     background-size: 30em;
 }
-#HeadingText{
+#HeadingText1{
     font-family: 'Yeseva One', cursive;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     color:rgb(100,250,230);
     text-shadow: 1px 1px #f9f9f9;
+}
+#HeadingText2{
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    font-size: 4em;
+    color:rgb(100,250,230);
+    text-shadow: 1px 1px #f9f9f9;
+    margin-top: -5vh !important;
+}
+
+#ChangingText{
+    width:45vw !important;
+    text-align: center;
+    color:#f9f9f9;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+    margin-top:8.5vh;
+}
+
+#MainText{
+    width:36vw !important;
+    margin-left: 4.5vw;
+    text-align:left;
+    color:#f9f9f9;
+    font-size: 1.1em;
+    font-family: 'Karla', sans-serif;   
+    line-height: 26px;
+    margin-top: 5vh;
 }

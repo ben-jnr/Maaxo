@@ -13,7 +13,7 @@
     font-family: 'Karla', sans-serif;
     font-size: 1.1em;
     color:rgba(0.1,0,0,0.75);
-    text-shadow: 1px 1px rgb(100,250,230);
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
 }
 #BrochureText{
     display: inline-block;

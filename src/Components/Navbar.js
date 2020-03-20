@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() {
         return (
             <div id="Navbar">
-                    <div className="Navitem">Image</div>
+                    <div className="Navitem" id="Logo">Image</div>
                     <div className="Navitem">About</div>
                     <div className="Navitem">Products</div>
                     <div className="Navitem">Queries</div>
