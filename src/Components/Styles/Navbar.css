@@ -8,31 +8,68 @@
     background-color: rgba(0,0,0,0.75);
     box-shadow: 5px 5px 7px rgba(0,0,0,0.4);
 }
-#Logo{
-    width: 15vw;
-    display: inline-block;
-}
 
-#LogoImage{
-    padding-left:2.5vw;
-    padding-top: 1.5vh;
-    width: 4vw;
-}
 #NavLinks{
     display: inline-block;
-    width: 100vw;
+    width: 95vw;
     position: absolute;
 }
-.Navitem{
-    width:11vw;
-    display: inline-block;
-    color:#f9f9f9;
-    text-align: center;
+
+.NavItem {
     font-family: 'Karla', sans-serif;
     font-size:1.1em;
+    position: relative;
+    float: right;
+    margin-left:5em;
+    color:#f9f9f9;
 }
-.Navitem:nth-of-type(1)
-{
-    margin-left: 28vw;
+
+.NavItem:hover{
+    color:rgb(100,250,230) !important;
 }
+
+.NavItem:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color:rgb(100,250,230) ;
+    margin-bottom: 0.5em;
+    height: 2px;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.NavItem:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+#Logo {
+    z-index: 1000;
+    position: absolute;
+    top: 7vh;
+    left: 23vw;
+    width: 7vh;
+    height: 7vh;
+    margin:-25px 0 0 -25px;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+    border-radius: 100%;
+    border:2px solid rgb(100,250,230);
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
 

@@ -4,6 +4,7 @@ import Landing from './Components/Landing';
 import About from './Components/About';
 import Products from  './Components/Products';
 import Form from './Components/Form';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Products />
       <Form />
+      <Contact />
     </div>
   );
 }

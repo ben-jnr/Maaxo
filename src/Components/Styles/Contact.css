@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+
+#Contact{
+    width:100vw;
+    height:50vh;
+    background-color: rgba(0,0,0,0.75);
+    margin-top: 5vh;
+}
+#ContactHeader{
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+    text-align: left;
+    font-size: 1.8em;
+    color:#f9f9f9;
+    font-family: 'Yeseva One',cursive;
+    letter-spacing: 1px;
+}
+#Map{
+    width:60vw;
+    margin-left: 0vw;
+    height:50vh;
+    display: inline-block;
+    margin-right: 2vw;
+}
+#ContactContainer{
+    width:20vw;
+    margin-left: 10vw;
+    color:#f9f9f9;
+    font-family: 'Karla',sans-serif;
+    font-size: 1.1em;
+    display: inline-block;
+    position: absolute;
+}
+
+#ContactContainer div{
+    padding-top:1vh;
+}
+
+#fbimg{
+    padding-top: 2vh;
+    width:4vw;
+}
+#fb{
+    margin-left: 0;
+}

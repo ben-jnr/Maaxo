@@ -19,7 +19,7 @@ class Heading extends Component {
     render() {
         return (
             <div id="Heading">
-                <div class="HeadingDiv"><h1 id="HeadingText1">MAAXO</h1>
+                <div className="HeadingDiv"><h1 id="HeadingText1">MAAXO</h1>
                         <h1 id="HeadingText2">INDUSTRIES</h1></div>
                 <div id="ChangingText"><em>{this.changingText[this.state.index]}</em></div>
                 <div id="MainText">
