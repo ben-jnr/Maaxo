@@ -12,7 +12,7 @@ class Navbar extends Component {
         return (
             <div>
             <div>
-                <img id="Logo" src={Logo} />
+                <img id="Logo" alt="" src={Logo} />
             </div> 
             <div id="Navbar">
                     <div id="NavLinks">

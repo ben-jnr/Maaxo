@@ -74,6 +74,7 @@ input[type='submit']{
 }
 input[type='submit']:hover{
     box-shadow: 0px 0px 0px rgba(0,0,0,0.75);
+    color:rgb(100, 250, 230);
 }
 textarea{
     width:40vw;
